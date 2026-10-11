@@ -1,0 +1,20 @@
+.DS_Store
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Backend build output
+backend/target/
+
+# Local database files
+backend/data/*.mv.db
+backend/data/*.trace.db
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
